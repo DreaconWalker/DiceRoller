@@ -4,7 +4,6 @@ import 'dart:math';
 import 'package:dice_roller/roll_event.dart';
 
 class RollerBloc {
-  
   int _timesRolled = 0;
   int _diceValue = Random().nextInt(6) + 1;
   int _totalDiceCount = 0;
@@ -25,10 +24,13 @@ class RollerBloc {
 
   void _mapEventToState(RollerEvent event) {
     if (event is Rolled) {
-    
-    } else {
+      _diceValue = Random().nextInt(6) + 1;
+    } else {}
+    _rolledDice.add(_diceValue);
+  }
 
-
-    }
+  void dispose() {
+    _rollerStateController.close();
+    _rollerEventController.close();
   }
 }

@@ -1,5 +1,7 @@
 import 'dart:math';
 
+import 'package:dice_roller/roll_bloc.dart';
+import 'package:dice_roller/roll_event.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -29,25 +31,27 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  final _bloc = RollerBloc();
+
   int timesRolled = 0;
 
-  int dicevalue = Random().nextInt(6) + 1;
+  // int dicevalue = Random().nextInt(6) + 1;
 
   int dicecount = 0;
 
-  void rollDice() {
-    setState(() {
-      dicevalue = Random().nextInt(6) + 1;
+  // void rollDice() {
+  //   setState(() {
+  //     dicevalue = Random().nextInt(6) + 1;
 
-      if (timesRolled <= 9) {
-        timesRolled += 1;
-        dicecount += dicevalue;
-      } else {
-        timesRolled = 0;
-        dicecount = 0;
-      }
-    });
-  }
+  //     if (timesRolled <= 9) {
+  //       timesRolled += 1;
+  //       dicecount += dicevalue;
+  //     } else {
+  //       timesRolled = 0;
+  //       dicecount = 0;
+  //     }
+  //   });
+  // }
 
   @override
   Widget build(BuildContext context) {
@@ -55,22 +59,27 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text('$timesRolled'),
-            Text('$dicecount'),
-            Expanded(
-              child: Image.asset('assets/dice-$dicevalue.png'),
-            ),
-            ElevatedButton(
-              onPressed: rollDice,
-              child: Text('Roll'),
-            ),
-          ],
-        ),
-      ),
+      body: StreamBuilder(
+          stream: _bloc.rolledno,
+          initialData: Random().nextInt(6) + 1,
+          builder: (context, snapshot) {
+            return Center(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  Text('$timesRolled'),
+                  Text('$dicecount'),
+                  Expanded(
+                    child: Image.asset('assets/dice-${snapshot.data}.png'),
+                  ),
+                  ElevatedButton(
+                    onPressed: () => _bloc.rollerEventSink.add(Rolled()),
+                    child: Text('Roll'),
+                  ),
+                ],
+              ),
+            );
+          }),
     );
   }
 }
