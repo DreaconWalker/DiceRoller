@@ -1,5 +1,6 @@
 import 'dart:math';
 
+import 'package:dice_roller/apptheme.dart';
 import 'package:dice_roller/roll_bloc.dart';
 import 'package:dice_roller/roll_event.dart';
 import 'package:flutter/material.dart';
@@ -16,25 +17,14 @@ class HomePage extends StatefulWidget {
 class _MyHomePageState extends State<HomePage> {
   final _bloc = RollerBloc();
 
-  // int timesRolled = 0;
+  @override
+  void initState() {
+    super.initState();
+    customTheme.addListener(() {
+      setState(() {});
+    });
+  }
 
-  // int dicevalue = Random().nextInt(6) + 1;
-
-  // int dicecount = 0;
-
-  // void rollDice() {
-  //   setState(() {
-  //     dicevalue = Random().nextInt(6) + 1;
-
-  //     if (timesRolled <= 9) {
-  //       timesRolled += 1;
-  //       dicecount += dicevalue;
-  //     } else {
-  //       timesRolled = 0;
-  //       dicecount = 0;
-  //     }
-  //   });
-  // }
   @override
   void dispose() {
     super.dispose();
@@ -45,6 +35,12 @@ class _MyHomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.brightness_4),
+            onPressed: () => customTheme.toggleTheme(),
+          )
+        ],
         title: Text(widget.title),
       ),
       body: Center(
