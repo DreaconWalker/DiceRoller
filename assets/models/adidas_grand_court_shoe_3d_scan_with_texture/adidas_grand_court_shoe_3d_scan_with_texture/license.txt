@@ -1,0 +1,11 @@
+Model Information:
+* title:	Adidas Grand Court Shoe 3D Scan (With Texture)
+* source:	https://sketchfab.com/3d-models/adidas-grand-court-shoe-3d-scan-with-texture-afb22fa96e9e4765b6ae8187608a42e2
+* author:	Arkify (https://sketchfab.com/arkify)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Adidas Grand Court Shoe 3D Scan (With Texture)" (https://sketchfab.com/3d-models/adidas-grand-court-shoe-3d-scan-with-texture-afb22fa96e9e4765b6ae8187608a42e2) by Arkify (https://sketchfab.com/arkify) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

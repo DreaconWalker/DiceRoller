@@ -1,0 +1,485 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2043,
+      "max": [
+        0.29350531101226807,
+        0.175710991024971,
+        2.2411532402038574
+      ],
+      "min": [
+        -0.29350531101226807,
+        -0.23982904851436615,
+        -2.236503839492798
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24516,
+      "componentType": 5126,
+      "count": 2043,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 2043,
+      "max": [
+        1.0,
+        1.0,
+        0.964923620223999,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -0.9977536797523499,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2043,
+      "max": [
+        0.853439211845398,
+        0.8803777098655701
+      ],
+      "min": [
+        0.030250847339630127,
+        0.06487670540809631
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 16344,
+      "componentType": 5126,
+      "count": 2043,
+      "max": [
+        0.853439211845398,
+        0.8803777098655701
+      ],
+      "min": [
+        0.030250847339630127,
+        0.06487670540809631
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 5742,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "sm_sahil (https://sketchfab.com/sm_sahil)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/ss-cricket-bat-game-ready-6f24deddfbca4ce38f070b69594ccf9b",
+      "title": "SS Cricket Bat (game ready)"
+    },
+    "generator": "Sketchfab-10.84.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 22968,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 32688,
+      "byteOffset": 22968,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 49032,
+      "byteOffset": 55656,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 32688,
+      "byteOffset": 104688,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 137376,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Game_ready_ss_bat_baseColor.png"
+    },
+    {
+      "uri": "textures/Game_ready_ss_bat_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Game_ready_ss_bat_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Game_ready_ss_bat",
+      "normalTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cube_Game ready ss bat_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "cricket bat.fbx"
+    },
+    {
+      "children": [
+        3,
+        5,
+        7,
+        10,
+        13
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        -10.000001907348517,
+        1.2246468214701713e-15,
+        -1.5099582789800015e-06,
+        0.0,
+        -1.5099582789799968e-06,
+        7.549791433185731e-07,
+        10.000001907348489,
+        0.0,
+        1.1522332555779859e-13,
+        10.000001907348603,
+        -7.549791410981267e-07,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Cube"
+    },
+    {
+      "mesh": 0,
+      "name": "Cube_Game ready ss bat_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        -27.46017578056805,
+        -85.55852612588832,
+        -43.88254041490746,
+        0.0,
+        -45.339644477346084,
+        51.76618405441473,
+        -72.55741745068052,
+        0.0,
+        84.79536713537068,
+        -0.028206559898685608,
+        -53.007012657655274,
+        0.0,
+        19.55426025390625,
+        66.81620788574219,
+        32.72648620605469,
+        1.0
+      ],
+      "name": "Camera"
+    },
+    {
+      "name": "Object_6"
+    },
+    {
+      "children": [
+        8
+      ],
+      "matrix": [
+        49.424826061490144,
+        4.83469501100231e-06,
+        86.93208020513154,
+        0.0,
+        -86.9320802051299,
+        2.2888024742151458e-05,
+        49.42482606148795,
+        0.0,
+        -1.750749642481786e-05,
+        -99.99999999999727,
+        1.5515267359766938e-05,
+        0.0,
+        -223.014404296875,
+        5.066686630249023,
+        124.56834411621094,
+        1.0
+      ],
+      "name": "Area"
+    },
+    {
+      "children": [
+        9
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Object_8"
+    },
+    {
+      "name": "Object_9"
+    },
+    {
+      "children": [
+        11
+      ],
+      "matrix": [
+        68.1811020373782,
+        -2.8594820955518685e-06,
+        -73.15283538570884,
+        0.0,
+        73.15283538570888,
+        4.481795756738904e-06,
+        68.18110203737805,
+        0.0,
+        1.3289342737365928e-06,
+        -99.99999999999987,
+        5.147529980042975e-06,
+        0.0,
+        119.6777114868164,
+        5.066686630249023,
+        112.35115814208984,
+        1.0
+      ],
+      "name": "Area.001"
+    },
+    {
+      "children": [
+        12
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Object_11"
+    },
+    {
+      "name": "Object_12"
+    },
+    {
+      "children": [
+        14
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        99.99999999999972,
+        -7.5497901264043296e-06,
+        0.0,
+        0.0,
+        7.5497901264043296e-06,
+        99.99999999999972,
+        0.0,
+        0.0,
+        39.432865142822266,
+        0.0,
+        1.0
+      ],
+      "name": "Area.002"
+    },
+    {
+      "children": [
+        15
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Object_14"
+    },
+    {
+      "name": "Object_15"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Jari Kurri's Ice Hockey Skate
+* source:	https://sketchfab.com/3d-models/jari-kurris-ice-hockey-skate-c5961b09dbf24f56a2752a04b0517af4
+* author:	urheilumuseo (https://sketchfab.com/urheilumuseo)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Jari Kurri's Ice Hockey Skate" (https://sketchfab.com/3d-models/jari-kurris-ice-hockey-skate-c5961b09dbf24f56a2752a04b0517af4) by urheilumuseo (https://sketchfab.com/urheilumuseo) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

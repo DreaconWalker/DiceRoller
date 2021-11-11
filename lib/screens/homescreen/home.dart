@@ -16,25 +16,7 @@ class HomePage extends StatefulWidget {
 class _MyHomePageState extends State<HomePage> {
   final _bloc = RollerBloc();
 
-  // int timesRolled = 0;
 
-  // int dicevalue = Random().nextInt(6) + 1;
-
-  // int dicecount = 0;
-
-  // void rollDice() {
-  //   setState(() {
-  //     dicevalue = Random().nextInt(6) + 1;
-
-  //     if (timesRolled <= 9) {
-  //       timesRolled += 1;
-  //       dicecount += dicevalue;
-  //     } else {
-  //       timesRolled = 0;
-  //       dicecount = 0;
-  //     }
-  //   });
-  // }
   @override
   void dispose() {
     super.dispose();

@@ -1,0 +1,11 @@
+Model Information:
+* title:	SS Cricket Bat (game ready)
+* source:	https://sketchfab.com/3d-models/ss-cricket-bat-game-ready-6f24deddfbca4ce38f070b69594ccf9b
+* author:	sm_sahil (https://sketchfab.com/sm_sahil)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "SS Cricket Bat (game ready)" (https://sketchfab.com/3d-models/ss-cricket-bat-game-ready-6f24deddfbca4ce38f070b69594ccf9b) by sm_sahil (https://sketchfab.com/sm_sahil) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Hannes Kolehmainen's Spike Shoe
+* source:	https://sketchfab.com/3d-models/hannes-kolehmainens-spike-shoe-7be1b7e0063c49baa0d3ba6af6368024
+* author:	urheilumuseo (https://sketchfab.com/urheilumuseo)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Hannes Kolehmainen's Spike Shoe" (https://sketchfab.com/3d-models/hannes-kolehmainens-spike-shoe-7be1b7e0063c49baa0d3ba6af6368024) by urheilumuseo (https://sketchfab.com/urheilumuseo) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

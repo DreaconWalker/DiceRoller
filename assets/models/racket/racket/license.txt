@@ -1,0 +1,11 @@
+Model Information:
+* title:	racket
+* source:	https://sketchfab.com/3d-models/racket-c220c53afa4c402da8399cc49e10c8de
+* author:	Ostrich33 (https://sketchfab.com/ostrich33)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "racket" (https://sketchfab.com/3d-models/racket-c220c53afa4c402da8399cc49e10c8de) by Ostrich33 (https://sketchfab.com/ostrich33) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
