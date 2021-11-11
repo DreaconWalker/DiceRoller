@@ -88,7 +88,7 @@
     "generator": "Sketchfab-10.39.2",
     "version": "2.0"
   },
-  "bufferViews": [  
+  "bufferViews": [
     {
       "buffer": 0,
       "byteLength": 36576,
@@ -267,6 +267,8 @@
       "sampler": 0,
       "source": 2
     }
-  ]
+  ],
+  "extras": {
+    "description": "MetaData"
+  }
 }
-
