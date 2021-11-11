@@ -1,5 +1,6 @@
 import 'dart:math';
 
+import 'package:dice_roller/apptheme.dart';
 import 'package:dice_roller/roll_bloc.dart';
 import 'package:dice_roller/roll_event.dart';
 import 'package:flutter/material.dart';
@@ -16,6 +17,16 @@ class HomePage extends StatefulWidget {
 class _MyHomePageState extends State<HomePage> {
   final _bloc = RollerBloc();
 
+<<<<<<< HEAD
+=======
+  @override
+  void initState() {
+    super.initState();
+    customTheme.addListener(() {
+      setState(() {});
+    });
+  }
+>>>>>>> 807403c6d64fd4b9fafbaa1fdbf48c2c8c85f112
 
   @override
   void dispose() {
@@ -27,6 +38,12 @@ class _MyHomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.brightness_4),
+            onPressed: () => customTheme.toggleTheme(),
+          )
+        ],
         title: Text(widget.title),
       ),
       body: Center(
