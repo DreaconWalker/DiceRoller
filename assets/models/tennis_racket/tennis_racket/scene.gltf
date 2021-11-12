@@ -355,9 +355,7 @@
         {
           "attributes": {
             "NORMAL": 1,
-            "POSITION": 0,
-            "TANGENT": 2,
-            "TEXCOORD_0": 3
+            "POSITION": 0
           },
           "indices": 4,
           "material": 0,
@@ -371,9 +369,7 @@
         {
           "attributes": {
             "NORMAL": 6,
-            "POSITION": 5,
-            "TANGENT": 7,
-            "TEXCOORD_0": 8
+            "POSITION": 5
           },
           "indices": 9,
           "material": 1,
@@ -387,9 +383,7 @@
         {
           "attributes": {
             "NORMAL": 11,
-            "POSITION": 10,
-            "TANGENT": 12,
-            "TEXCOORD_0": 13
+            "POSITION": 10
           },
           "indices": 14,
           "material": 2,
@@ -496,4 +490,3 @@
     }
   ]
 }
-

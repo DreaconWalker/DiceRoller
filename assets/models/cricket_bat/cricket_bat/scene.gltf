@@ -165,7 +165,7 @@
   ],
   "images": [
     {
-      "uri": "textures/aiStandardSurface2SG_baseColor.png"
+      "uri": "aiStandardSurface2SG_baseColor.png"
     }
   ],
   "materials": [
@@ -293,6 +293,8 @@
       "sampler": 0,
       "source": 0
     }
-  ]
+  ],
+  "extras": {
+    "description": "MetaData"
+  }
 }
-

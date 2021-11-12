@@ -1,0 +1,221 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 43131,
+      "max": [
+        14.76109504699707,
+        11.440892219543457,
+        6.204390525817871
+      ],
+      "min": [
+        -12.239447593688965,
+        0.6508462429046631,
+        -4.176592826843262
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 517572,
+      "componentType": 5126,
+      "count": 43131,
+      "max": [
+        0.9994497299194336,
+        0.999974250793457,
+        0.9999257326126099
+      ],
+      "min": [
+        -0.999366044998169,
+        -0.999944806098938,
+        -0.9999401569366455
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 43131,
+      "max": [
+        0.9990001916885376,
+        0.9990148544311523
+      ],
+      "min": [
+        0.0009851407958194613,
+        0.0009851407958194613
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 155928,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "urheilumuseo (https://sketchfab.com/urheilumuseo)",
+      "license": "CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)",
+      "source": "https://sketchfab.com/3d-models/atte-koskinens-cycling-shoe-d1f5a1b51448479496334077abe206c9",
+      "title": "Atte Koskinen’s cycling shoe"
+    },
+    "generator": "Sketchfab-11.26.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 623712,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 345048,
+      "byteOffset": 623712,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1035144,
+      "byteOffset": 968760,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2003904,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "attekoskinen_pyorailykenka_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "attekoskinen_pyorailykenka",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8040408206
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "attekoskinen_pyorailykenka_attekoskinen_pyorailykenka_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "a8e50940e7404a6faf2fe004991be46e.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "attekoskinen_pyorailykenka"
+    },
+    {
+      "mesh": 0,
+      "name": "attekoskinen_pyorailykenka_attekoskinen_pyorailykenka_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
